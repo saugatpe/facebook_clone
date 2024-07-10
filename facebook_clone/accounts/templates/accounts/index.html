@@ -1,0 +1,7 @@
+{% extends "accounts/layout.html" %}
+
+{% block body %}
+<h1>hello, {{ username }}</h1>
+
+<a href="{% url 'logout' %}">logout</a>
+{% endblock %}
